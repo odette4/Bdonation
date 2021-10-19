@@ -19,8 +19,8 @@ const ServiceInfo =()=>{
            
             </Card.Grid>
         </Card>
-        <div>
-        <h1 style={{fontSize:"40px",color:"black", fontWeight:"bold",border:"white",align:"center" , backgroundColor:"darkgrey"}}> Welcome to blood donation and bank systen </h1> 
+        <div style={{marginLeft:""}}>
+        <h1 style={{fontSize:"40px",color:"black", fontWeight:"bold",border:"white", backgroundColor:"darkgrey"}}> Welcome to blood donation and bank systen </h1> 
         </div>
         <div>
         <h4 style={{fontSize:"40px",color:"white", backgroundColor:"black",fontWeight:"bold",border:"white",align:"center"}}> The Need Of Blood  The Need Of Blood   The Need Of Blood</h4>
@@ -29,10 +29,10 @@ const ServiceInfo =()=>{
         <Card style={{width:"100%"}}>
                 <Card.Grid hoverable={false}  style={{width:"30%"}}>
                     
-                    <p style={{fontSize:"20px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
+                    <p style={{fontSize:"13px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
 common misunderstanding about blood usage is that accident victims are the patients who use the most blood. Actually, people needing the most blood include those:
 </p>  
-<ol>
+<ol style={{fontSize:"13px",padding:"10px",border:"white"}}>
     <li>Being treated for cancer</li>
     <li>Undergoing orthopedic surgeries</li>
     <li>Undergoing cardiovascular surgeries</li>
@@ -45,9 +45,9 @@ common misunderstanding about blood usage is that accident victims are the patie
        
                <Card.Grid hoverable={false}  style={{width:"30%"}}>
                    
-                   <p style={{fontSize:"20px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
+                   <p style={{fontSize:"13px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
 common misunderstanding about blood usage is that accident victims are the patients who use the most blood. Actually, people needing the most blood include those:
-</p> <ol>
+</p> <ol style={{fontSize:"13px",padding:"10px",border:"white"}}>
     <li>You must be in good health.</li>
     <li>Hydrate and eat a healthy meal before your donation.</li>
     <li>You�re never too old to donate blood.</li>
@@ -60,9 +60,9 @@ common misunderstanding about blood usage is that accident victims are the patie
        
        <Card.Grid hoverable={false}  style={{width:"30%"}}>
            
-           <p style={{fontSize:"20px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
+           <p style={{fontSize:"13px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
 common misunderstanding about blood usage is that accident victims are the patients who use the most blood. Actually, people needing the most blood include those:
-</p> <ol>
+</p> <ol style={{fontSize:"13px",padding:"10px",border:"white"}}>
     <li>People who lose blood during major surgeries.</li>
     <li>People who have lost blood because of a gastrointestinal bleed.</li>
     <li>Women who have serious complications during pregnancy or childbirth.</li>
@@ -94,12 +94,12 @@ common misunderstanding about blood usage is that accident victims are the patie
           <Card>
           <Card.Grid hoverable={false} style={{width:"60%"}}>  
           <h1>UNIVERSAL DONORS AND RECIPIENTS</h1> 
-          <p>The most common blood type is O, followed by type A. Type O individuals are 
+          <p style={{fontSize:"13px",padding:"10px",border:"white"}}>The most common blood type is O, followed by type A. Type O individuals are 
             often called universal donors since their blood can be transfused into persons 
             with any blood type. Those with type AB blood are called universal recipients 
             because they can receive blood of any type.
 </p>
-<p>For emergency transfusions, blood group type O negative blood is the variety of 
+<p style={{fontSize:"13px",padding:"10px",border:"white"}}>For emergency transfusions, blood group type O negative blood is the variety of 
 blood that has the lowest risk of causing serious reactions for most people who 
 receive it. Because of this, it s sometimes called the universal blood donor type.</p>
 

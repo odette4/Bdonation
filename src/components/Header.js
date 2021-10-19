@@ -38,14 +38,14 @@ const Header = ()=>{
             </div>
             </Modal> 
 
-         <Menu className="menu" onClick={handleClick} selectkeys={[current]} mode="horizontal" style={{merg:"0px 0px 0px 60%", marginLeft:"600px", backgroundColor:"wheat"}}>
+         <Menu className="menu" onClick={handleClick} selectkeys={[current]} mode="horizontal" style={{merg:"0px 0px 0px 60%", marginLeft:"600px", backgroundColor:"brown"}}>
              <Menu.Item key="home">
                  <Link to="/home">
                  home</Link>
 
                  </Menu.Item>
-                 <Menu.Item key="About Us">
-                     <Link onclick={handleClick} to="/About Us">
+                 <Menu.Item key="Aboutus">
+                     <Link onclick={handleClick} to="/aboutus">
                      About Us</Link>
                      </Menu.Item>
 
