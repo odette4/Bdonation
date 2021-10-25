@@ -4,9 +4,10 @@ import {Menu,Modal} from "antd";
 import 'antd/dist/antd.css';
 import {Link} from "react-router-dom";
 import SigninForm from "./SigninForm";
+import logo9 from "../assets/logo9.PNG";
 
 
-const Header = ()=>{
+const MyHeader = ()=>{
     const [isModalVisible,setIsModalVisible]=useState(false);
 
     const showModal = () => {
@@ -30,15 +31,18 @@ const Header = ()=>{
     return(
             
         <div>
-         <div className="header-container" style={{display: 'flex'}}>
-         <h1> Blood bank & Donation</h1>
+         <div className="header-container" style={{display:"flex",position:""}}>
+         <img src={logo9} alt="image" width="100%"/>
+         <h1 style={{color:"white",marginLeft:"100px",width:"200px"}}> BloodBankDonation</h1>
           <Modal title="User Login" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
           <div style={{padding:"30px"}}>
             <SigninForm/>
             </div>
-            </Modal> 
-
-         <Menu className="menu" onClick={handleClick} selectkeys={[current]} mode="horizontal" style={{merg:"0px 0px 0px 60%", marginLeft:"600px", backgroundColor:"brown"}}>
+            </Modal>
+           
+            
+            <Menu onClick={handleClick} selectkeys={[current]} mode="horizontal" style={{ marginLeft:"600px",backgroundColor:"brown",color:"white"}}>
+            
              <Menu.Item key="home">
                  <Link to="/home">
                  home</Link>
@@ -49,8 +53,10 @@ const Header = ()=>{
                      About Us</Link>
                      </Menu.Item>
 
-                         <Menu.Item key=" Donor" onClick={showModal}>
-                         Donar
+                         <Menu.Item key=" Dashboard">
+                             <Link onclick={handleClick} to="/dashboard">
+                         Dash</Link>
+
                          </Menu.Item>
                          <Menu.Item key="Hospital">
                              <Link onClick={handleClick} to="/hospital">
@@ -62,10 +68,10 @@ const Header = ()=>{
                          
                          </Menu> 
                             </div>
-                            <h2 align="center" className="message-header"><marquee>first blood donation camp organized by RBC in all district of country come and be part to this noble cause </marquee></h2>
+                            <h2 style={{color:"white",width:"200%"}} className="message-header"><marquee>first blood donation camp organized by RBC in all district of country come and be part to this noble cause </marquee></h2>
                             
                          </div>   
      
     )
 }
-export default Header;
+export default MyHeader;

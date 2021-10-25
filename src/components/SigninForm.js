@@ -2,6 +2,7 @@ import React from "react";
 import {Form, Input, Button, Checkbox} from 'antd';
 import {Link} from "react-router-dom";
 import {UserOutlined, LockOutlined} from '@ant-design/icons';
+import "./index.css";
 
 
 
@@ -13,6 +14,7 @@ return (
      name="normal_login"
      className="login-form"
      initialValues={{remember: true}}
+     
     
     >
 

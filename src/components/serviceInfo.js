@@ -4,30 +4,30 @@ import {Card,Input} from "antd";
 import {AudioOutlined} from '@ant-design/icons';
 
 
-import image1 from "../assets/image.PNG";
+import image1 from "../assets/image1.jpeg";
 import image2 from "../assets/image2.PNG";
 
 const ServiceInfo =()=>{
     
 
     return(
-        <div>
+        <div style={{width:"100%"}}>
     
         <Card style={{width:"100%"}}>
-            <Card.Grid hoverable={false}  style={{width:"100%",display:"flex",padding:"50px"}}>
+            <Card.Grid hoverable={false}  style={{width:"100%",display:"flex",padding:"50px",height:"500px"}}>
                 <img src={image1} alt="image" width="100%"/>
            
             </Card.Grid>
         </Card>
         <div style={{marginLeft:""}}>
-        <h1 style={{fontSize:"40px",color:"black", fontWeight:"bold",border:"white", backgroundColor:"darkgrey"}}> Welcome to blood donation and bank systen </h1> 
+        <h1 style={{fontSize:"40px",fontFamily:"serif",padding:"0%0%0%10%",color:"black", fontWeight:"bold",color:"white", backgroundColor:"black"}}> Welcome to BloodBank and Donar Management system </h1> 
         </div>
         <div>
-        <h4 style={{fontSize:"40px",color:"white", backgroundColor:"black",fontWeight:"bold",border:"white",align:"center"}}> The Need Of Blood  The Need Of Blood   The Need Of Blood</h4>
        
         
         <Card style={{width:"100%"}}>
                 <Card.Grid hoverable={false}  style={{width:"30%"}}>
+                    <h2 style={{border:"",backgroundColor:"black",fontFamily:"serif",color:"white"}}>The need for blood</h2>
                     
                     <p style={{fontSize:"13px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
 common misunderstanding about blood usage is that accident victims are the patients who use the most blood. Actually, people needing the most blood include those:
@@ -44,7 +44,7 @@ common misunderstanding about blood usage is that accident victims are the patie
         
        
                <Card.Grid hoverable={false}  style={{width:"30%"}}>
-                   
+                   <h2 style={{border:"",backgroundColor:"black",fontFamily:"serif",color:"white"}}>Blood Tips</h2>
                    <p style={{fontSize:"13px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
 common misunderstanding about blood usage is that accident victims are the patients who use the most blood. Actually, people needing the most blood include those:
 </p> <ol style={{fontSize:"13px",padding:"10px",border:"white"}}>
@@ -59,10 +59,9 @@ common misunderstanding about blood usage is that accident victims are the patie
         
        
        <Card.Grid hoverable={false}  style={{width:"30%"}}>
-           
-           <p style={{fontSize:"13px",padding:"10px",border:"white"}}>There are many reasons patients need blood. A 
-common misunderstanding about blood usage is that accident victims are the patients who use the most blood. Actually, people needing the most blood include those:
-</p> <ol style={{fontSize:"13px",padding:"10px",border:"white"}}>
+           <h2 style={{border:"",backgroundColor:"black",fontFamily:"serif",color:"white"}}>Who you could Help</h2>
+           <p style={{fontSize:"13px",padding:"10px",border:"white"}}>Every 2 seconds, someone in the world needs blood.Donating blood can help:</p> 
+           <ol style={{fontSize:"13px",padding:"10px",border:"white"}}>
     <li>People who lose blood during major surgeries.</li>
     <li>People who have lost blood because of a gastrointestinal bleed.</li>
     <li>Women who have serious complications during pregnancy or childbirth.</li>
@@ -74,7 +73,7 @@ common misunderstanding about blood usage is that accident victims are the patie
             </div>
 
            <div>
-               <h1>BLOOD GROUPS</h1>
+               <h1 style={{fontFamily:"serif",color:"white",backgroundColor:"black"}}>BLOOD GROUPS</h1>
                <Card>
                    <Card.Grid hoverable={false} style={{width:"60%"}}>
                        <p>Blood group of any human being will mainly fall in any one of the following groups.</p>
@@ -93,7 +92,7 @@ common misunderstanding about blood usage is that accident victims are the patie
       <div>
           <Card>
           <Card.Grid hoverable={false} style={{width:"60%"}}>  
-          <h1>UNIVERSAL DONORS AND RECIPIENTS</h1> 
+          <h1 style={{fontFamily:"serif",color:"white",backgroundColor:"black"}}>UNIVERSAL DONORS AND RECIPIENTS</h1> 
           <p style={{fontSize:"13px",padding:"10px",border:"white"}}>The most common blood type is O, followed by type A. Type O individuals are 
             often called universal donors since their blood can be transfused into persons 
             with any blood type. Those with type AB blood are called universal recipients 
@@ -109,9 +108,10 @@ receive it. Because of this, it s sometimes called the universal blood donor typ
               </Card.Grid>
           </Card>
       </div>
-      <div style={{backgroundColor:"darkgrey", height:"50vh"}}>
-
-          <h1>footer</h1>
+      <div style={{backgroundColor:"blue", height:"15vh"}}>
+          <p style={{marginLeft:"600px", border:"black",fontFamily:"serif"}}>COPYRIGHT@2021 <br></br>Blood & Donation Management <br></br>ALL RIGHTS RESERVED.</p>
+          <p style={{marginLeft:"570px", border:"black",fontFamily:"serif"}}></p>
+          <p style={{marginLeft:"590px", border:"black",fontFamily:"serif"}}></p>
 
       </div>
             

@@ -8,10 +8,10 @@ const RegisterForm = () => {
   };
 
   return (
-    <fieldset>
-      <legend>Registration form</legend>
-    <Form name="complex-form" onFinish={onFinish} labelCol={{ span: 8 }} wrapperCol={{ span: 16 }}>
-       
+    
+      
+    <Form name="complex-form" onFinish={onFinish} labelCol={{ span: 8 }} wrapperCol={{ span: 16 }} style={{backgroundColor:"blue",color:"white",width:"75%",padding:"5%30%10%20%"}}>
+       <h1 style={{marginLeft:"100px"}}>Registration Form</h1>
       
       <Form.Item label="Names">
         <Space>
@@ -99,7 +99,7 @@ const RegisterForm = () => {
       </Form.Item>
       
     </Form>
-    </fieldset>
+    
   );
 };
 
